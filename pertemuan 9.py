@@ -1,10 +1,15 @@
 import streamlit as st
 
+# Ini bagian Heading aplikasi StreamLit
 st.title("Kuliah Analisis Big Data") 
 st.write("Rania Yasmin")
 st.write("# Heading 1")
-st.write ("## Heading 2")
-st.write("### Heading 3")
+
+
+#Kinerja Unit
+st.metric("Kinerja", 40,-1)
+st.metric("Response Time", 30, 20)
+
 
 pilih1 = st.checkbox('Ya')
 pilih2 = st.checkbox('Tidak')
