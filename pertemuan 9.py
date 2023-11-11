@@ -9,7 +9,7 @@ st.write("# Heading 1")
 #Kinerja Unit
 st.metric("Kinerja", 40,-1)
 st.metric("Response Time", 30, 20)
-
+st.metric("Saham",100,20)
 
 pilih1 = st.checkbox('Ya')
 pilih2 = st.checkbox('Tidak')
@@ -29,3 +29,4 @@ st.write (minuman)
 bayar = st.multiselect('Bayar Pakai:',
                        ['Tunai', 'Ovo', 'Gopay'])
 st.write(bayar)
+
